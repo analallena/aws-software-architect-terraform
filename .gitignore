@@ -1,2 +1,3 @@
 /.idea/
 aws_ec2_keypair*
+.terraform*

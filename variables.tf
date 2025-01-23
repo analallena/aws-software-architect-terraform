@@ -1,18 +1,19 @@
 variable "key-name" {
+  type = string
 }
 
 variable "network-security-group-name" {
+  type = string
 }
 
 variable "ubuntu-ami" {
+  type = string
 }
 
 variable "ubuntu-instance-type" {
+  type = string
 }
 
-variable "tags"{
-    type = map(string)
-    default = {
-        Name = "aws_software_architect"
-    }
+variable "project" {
+  type = string
 }
